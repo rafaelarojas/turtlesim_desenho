@@ -24,22 +24,34 @@ Certifique-se de ter o ROS2 instalado em seu sistema. Além disso, certifique-se
 
 1. Clone este repositório em seu ambiente:
 
-``git clone https://github.com/rafaelarojas/turtlesim_desenho.git``
+
+```bash
+git clone https://github.com/rafaelarojas/turtlesim_desenho.git
+```
 
 
 2. Navegue até o diretório do código:
 
-``cd turtlesim_desenho/src``
+
+```bash
+cd turtlesim_desenho/src
+```
 
 
 3. Compile o código:
 
-``colcon build``
+
+```bash
+colcon build
+```
 
 
 4. Ative o ambiente do ROS2:
 
-``source install/setup.bash``
+
+```bash
+source install/setup.bash
+```
 
 ---
 
@@ -49,16 +61,23 @@ Para executar, confira se está dentro da pasta src.
 
 1. Compile o código:
 
-``colcon build``
+
+```bash
+colcon build
+```
 
 
 2. Abra um terminal e digite:
 
-``ros2 run turtlesim turtlesim_node``
 
-Irá abrir o TurtleSim.
+```bash
+ros2 run turtlesim turtlesim_node
+```
+
 
 
 3. Abra outro terminal e digite:
 
-``ros2 run turtle_pkg turtle``
+
+```bash
+ros2 run turtle_pkg turtle
