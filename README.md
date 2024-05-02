@@ -19,7 +19,11 @@ Para assistir o vídeo completo de demonstração, clique [aqui](https://drive.g
 
 ## Instalação
 
-Certifique-se de ter o ROS2 instalado em seu sistema. Além disso, certifique-se de ter todas as dependências instaladas, elas estão disponíveis no arquivo `requirements.txt` na raíz do projeto.
+Certifique-se de ter o ROS2 instalado em seu sistema. Além disso, certifique-se de ter todas as dependências instaladas, elas estão disponíveis no arquivo `requirements.txt` na raíz do projeto, para isso utilize o comando:
+
+```bash
+pip install -r requirements.txt
+```
 
 
 1. Clone este repositório em seu ambiente:
